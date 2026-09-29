@@ -1,0 +1,2 @@
+For Python backend roles, practice FastAPI, SQL, REST APIs, authentication, testing and Docker through projects.
+For data roles, practice Python, SQL, pandas, numpy, statistics and visualization using portfolio projects.

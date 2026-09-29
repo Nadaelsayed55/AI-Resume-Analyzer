@@ -1,0 +1,42 @@
+body{font-family:Arial,sans-serif;
+    background:#f4f6f8;
+    margin:0;
+    color:#222}
+
+header{background:#17202a;
+    color:#fff;
+    padding:18px 5%;
+    display:flex;
+    justify-content:space-between}
+
+main{max-width:1000px;
+    margin:30px auto;
+    padding:0 15px}
+.card{background:#fff;
+    padding:22px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 2px 10px #0001}
+.grid{display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:10px}
+input,textarea{box-sizing:border-box;
+    width:100%;
+    padding:11px;
+    margin:6px 0;
+    border:1px solid #ccd3da;
+    border-radius:7px}
+textarea{min-height:100px}button{padding:10px 16px;
+    border:0;
+    border-radius:7px;
+    background:#2563eb;
+    color:#fff;
+    cursor:pointer;
+    margin:6px 4px 6px 0}
+pre{white-space:pre-wrap;
+    background:#f7f7f7;
+    padding:15px;
+    border-radius:8px}.job{border:1px solid #ddd;
+        border-radius:8px;
+        padding:14px;
+        margin-top:10px}

@@ -1,0 +1,6 @@
+Python: general-purpose programming language used for backend, automation, data and AI.
+FastAPI: Python framework for building APIs.
+SQL: language for querying relational databases.
+Git: version control system.
+Communication: ability to explain ideas clearly and work with others.
+Leadership: coordinating people or projects toward goals.

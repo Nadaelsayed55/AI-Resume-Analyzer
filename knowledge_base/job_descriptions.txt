@@ -1,0 +1,4 @@
+Python Developer: Python, FastAPI, SQL, Git, REST APIs, testing, Docker.
+Data Analyst: Python, SQL, pandas, numpy, statistics, data visualization.
+Machine Learning Engineer: Python, scikit-learn, pandas, numpy, machine learning, deep learning.
+Frontend Developer: HTML, CSS, JavaScript, React, responsive design, Git.

@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Resume Analyzer</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>AI Resume Analyzer</h1>
+    <button id="logout">Logout</button>
+</header>
+
+<main>
+
+<section class="card">
+    <h2>1. Register / Login</h2>
+
+    <div class="grid">
+        <input id="name" placeholder="Name">
+        <input id="email" placeholder="Email">
+        <input id="password" type="password" placeholder="Password">
+    </div>
+
+    <button id="register">Register</button>
+    <button id="login">Login</button>
+
+    <p id="authStatus"></p>
+</section>
+
+
+<section class="card">
+    <h2>2. Upload Resume</h2>
+
+    <input id="resumeFile" type="file" accept=".pdf,.docx">
+
+    <button id="upload">Analyze Resume</button>
+
+    <pre id="analysis"></pre>
+</section>
+
+
+<section class="card">
+    <h2>3. Recommended Jobs</h2>
+
+    <p>
+        Upload your resume first, then search for jobs.
+        The system will compare your resume with available jobs.
+    </p>
+
+    <div class="grid">
+        <input id="jobQuery" placeholder="Python Developer">
+        <input id="jobLocation" placeholder="Cairo">
+    </div>
+
+    <button id="searchJobs">Find Matching Jobs</button>
+
+    <div id="jobs"></div>
+</section>
+
+
+<section class="card">
+    <h2>4. Add Job</h2>
+
+    <input id="jt" placeholder="Job title">
+    <input id="jc" placeholder="Company">
+    <input id="jl" placeholder="Location">
+
+    <input id="js" placeholder="Skills, comma separated">
+
+    <textarea id="jd" placeholder="Job description"></textarea>
+
+    <button id="addJob">Add Job</button>
+</section>
+
+
+<section class="card">
+    <h2>5. Career Advice</h2>
+
+    <button id="advice">Get Advice for Last Resume</button>
+
+    <pre id="adviceBox"></pre>
+</section>
+
+</main>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>

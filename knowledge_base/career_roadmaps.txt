@@ -1,0 +1,3 @@
+Backend roadmap: Python -> HTTP/REST -> FastAPI -> SQL -> authentication -> testing -> Docker -> deployment.
+Data roadmap: Python -> SQL -> pandas/numpy -> statistics -> visualization -> machine learning.
+AI roadmap: Python -> statistics -> machine learning -> deep learning -> NLP/LLMs -> RAG -> deployment.
